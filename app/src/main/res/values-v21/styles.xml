@@ -1,0 +1,6 @@
+<resources>
+
+    <style name="MyDatePickerStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:dayOfWeekTextAppearance">@color/ColorEvent</item>
+    </style>
+</resources>

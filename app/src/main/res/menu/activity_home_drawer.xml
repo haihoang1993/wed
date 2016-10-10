@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single"
+
+        >
+        <item
+            android:id="@+id/nav_home"
+            android:color="#ffffff"
+            android:state_checked="true"
+
+            android:icon="@mipmap/ic_menuhome"
+            android:title="Home" />
+
+        <item
+            android:name="android:listDivider"
+            android:id="@+id/nav_activity"
+            android:icon="@mipmap/ic_menuactivity"
+            android:title="Activity">
+        </item>
+        <item
+            android:name="android:listDivider"
+            android:id="@+id/nav_goal"
+            android:icon="@mipmap/ic_goal"
+            android:title="Goal">
+        </item>
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@mipmap/ic_menu_event"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/ic_menu_setting"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@mipmap/ic_menu_shop"
+            android:title="Shop" />
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NiceSpinner">
+        <attr name="arrowTintColor" format="color" />
+        <attr name="hideArrow" format="boolean" />
+        <attr name="iconArrow" format="integer"></attr>
+        <attr name="backgroundSelector" format="color"/>
+        <attr name="textTint" format="color"/>
+        <attr name="backgorud_content_drop" format="color"></attr>
+    </declare-styleable>
+</resources>

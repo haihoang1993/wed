@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg2"
+    android:gravity="center"
+    android:padding="10dp"
+
+    android:orientation="horizontal"
+    android:weightSum="10">
+  <LinearLayout
+      android:layout_width="0dp"
+      android:layout_weight="8"
+      android:orientation="vertical"
+
+      android:layout_height="wrap_content">
+      <TextView
+          android:id="@+id/tvNameItemShop"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:text="jjjjjjjjjjjjjj"
+          android:textColor="#fff"
+          android:textSize="15dp"
+          android:textStyle="bold" />
+      <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:gravity="center_vertical"
+          android:layout_height="wrap_content">
+         <FrameLayout
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent">
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@mipmap/ic_usd"
+                 />
+         </FrameLayout>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="$134"
+              android:textSize="20dp"
+              android:id="@+id/tvDesItemShop"
+              android:textColor="#fff"
+              android:textStyle="bold"
+              />
+      </LinearLayout>
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+
+        android:weightSum="5"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:background="@drawable/bg_button_form1"
+            android:textSize="9dp"
+            android:textColor="#000"
+            android:text="Buy" />
+    </LinearLayout>
+</LinearLayout>

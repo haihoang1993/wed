@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#ffffffff"
+    android:weightSum="12">
+    
+    <TextView
+        android:id="@+id/titleSavePrayer"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff000000"
+        android:textSize="16sp"
+        android:text="@string/save_prayer_popup_title"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff000000"
+        android:textSize="14sp"
+        android:text="@string/save_prayer_popup_comment_ask"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/commentSavePrayer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="@string/save_prayer_popup_comment_holder"
+        android:textSize="14sp"
+        android:lines="1"
+        android:layout_weight="2"/>
+
+    <FrameLayout
+        android:id="@+id/imageHolder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="6dp"
+        android:layout_weight="6">
+        <ImageView
+            android:id="@+id/imageSavePrayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/default_image" />
+        <ImageButton
+            android:id="@+id/addButtonSavePrayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_menu_add" />
+
+        <ImageButton
+            android:id="@+id/removeButtonSavePrayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="top|end"
+            android:src="@android:drawable/ic_menu_close_clear_cancel" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/savePrayerButton"
+        android:text="@string/save_prayer_popup_save_button"
+        android:textColor="#166187"
+        android:textSize="16sp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:backgroundTint="#fc0303"
+        android:layout_weight="2"/>
+</LinearLayout>

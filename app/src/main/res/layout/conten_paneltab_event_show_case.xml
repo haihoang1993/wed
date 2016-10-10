@@ -1,0 +1,193 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="9"
+        android:id="@+id/pHeader"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:padding="1dp"
+        android:layout_marginTop="10dp"
+
+        >
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="3"
+            android:id="@+id/tab1Event"
+
+            >
+            <TextView
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:drawableTint="@color/ColorEvent"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/ic_camera"
+            />
+            <TextView
+                android:id="@+id/icTitTab1"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/ic_camera"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="3"
+            android:background="@color/ColorEvent"
+            android:id="@+id/tab2Event"
+            >
+            <TextView
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:drawableTint="@color/ColorEvent"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/ic_ping"
+
+                />
+            <TextView
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/ic_ping"
+                android:id="@+id/icTitTab2"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="3"
+            android:background="@color/ColorEvent"
+            android:id="@+id/tab3Event"
+            >
+            <TextView
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTint="@color/ColorEvent"
+                android:drawableTop="@mipmap/ic_calender"
+                />
+            <TextView
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:id="@+id/icTitTab3"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/ic_calender"
+                />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="10"
+        android:gravity="center"
+        android:background="@color/ColorEvent"
+        android:id="@+id/pContent"
+        android:orientation="vertical"
+        android:layout_below="@id/pHeader"
+        android:minHeight="200dp"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:visibility="gone"
+            android:id="@+id/pImage"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add_photo"
+                />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:visibility="visible"
+            android:id="@+id/pMapg"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Map view"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center_horizontal"
+                />
+
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:visibility="gone"
+            android:id="@+id/pCoutdown"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="000000000"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center_horizontal"
+                />
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/pContent"
+            android:background="#000"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Like"
+                android:maxHeight="30dp"
+                 android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:drawableLeft="@mipmap/ic_like_mall"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Comment"
+                android:maxHeight="30dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:drawableLeft="@mipmap/ic_comment"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

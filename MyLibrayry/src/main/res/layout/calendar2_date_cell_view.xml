@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.angmarch.views.ControlCalendar.widget.CellView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#00b2ff"
+    android:layout_height="match_parent"/>

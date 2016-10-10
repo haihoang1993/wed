@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/BgShowdow"
+    android:orientation="vertical"
+    >
+    <org.angmarch.views.NiceSpinner
+        android:id="@+id/spinnerEvent"
+        android:gravity="center_horizontal"
+        android:backgroundTint="@color/colorMenu"
+        android:background="@color/colorMenu"
+        android:textColor="@color/white"
+        app:arrowTintColor="@color/yelow"
+        app:backgorud_content_drop="@color/colorMenu"
+        app:textTint="@color/white"
+
+        app:backgroundSelector="@color/ColorEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ListView
+        android:layout_margin="15dp"
+        android:id="@+id/ListviewEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        android:layout_marginTop="15dp"
+        >
+
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMenu"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Send feedback"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/size_text_setting" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg2"
+        android:padding="@dimen/activity_vertical_margin"
+        android:text="Info"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_text_setting" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMenu"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:text="Prayers"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_text_setting" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg2"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:layout_marginBottom="1dp"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:padding="5dp"
+            android:text="See featureed prayers"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_text_setting"
+
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right">
+
+            <android.support.v7.widget.SwitchCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/switch_control"
+                android:checked="true"
+                android:theme="@style/btnSwitch" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg2"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:layout_marginBottom="1dp"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:padding="5dp"
+            android:text="See other people's prayers"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_text_setting"
+
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right">
+
+            <android.support.v7.widget.SwitchCompat
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/switch_control"
+                android:checked="true"
+                android:theme="@style/btnSwitch" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg2"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:layout_marginBottom="1dp"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:padding="5dp"
+            android:text="See unnamed prayers"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_text_setting"
+
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right">
+
+            <android.support.v7.widget.SwitchCompat
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/switch_control"
+                android:checked="true"
+                android:theme="@style/btnSwitch" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMenu"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:text="Upload Prayers"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_text_setting" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg2"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:layout_marginBottom="1dp"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:padding="5dp"
+            android:text="Enable upload"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_text_setting"
+
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right">
+
+            <android.support.v7.widget.SwitchCompat
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/switch_control"
+                android:checked="true"
+                android:theme="@style/btnSwitch" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg2"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:layout_marginBottom="1dp"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:padding="5dp"
+            android:text="Curent upload interval"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_text_setting"
+
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMenu"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:text="Upload Prayer"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_text_setting" />
+</LinearLayout>

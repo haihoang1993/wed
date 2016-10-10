@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AdoptYourStreet</string>
+    <string name="title_activity_home_maps">AdoptYourStreet</string>
+
+    <!--    Home maps      -->
+    <string name="button_pray_start">Start praying</string>
+    <string name="button_pray_stop">Stop praying</string>
+    <string name="home_maps_distance_value">0.0 miles</string>
+    <string name="home_maps_altitude_value">0.0 ft</string>
+    <string name="home_maps_time_value">0:00:00</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This project requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Adopt your street\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
+    <!--    Save prayer popup -->
+    <string name="save_prayer_popup_title">Save prayer</string>
+    <string name="save_prayer_popup_comment_ask">What did you pray about?</string>
+    <string name="save_prayer_popup_comment_holder">Prayer comment</string>
+    <string name="save_prayer_popup_save_button">Save</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

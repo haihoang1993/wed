@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.example.luan.adoptyourstreet.activities.EventShowCaseActivity"
+    android:background="#5b6b87"
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="15"
+       android:orientation="horizontal"
+       android:weightSum="10"
+       android:layout_marginRight="@dimen/event_showcase_margin"
+       android:layout_marginLeft="@dimen/event_showcase_margin"
+       android:layout_marginTop="5dp"
+       >
+       <FrameLayout
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="4"
+
+           >
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:scaleType="fitCenter"
+               android:adjustViewBounds="true"
+               android:layout_gravity="center"
+               android:src="@mipmap/ic_launcher"
+               />
+       </FrameLayout>
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:layout_weight="6"
+           android:padding="5dp"
+           >
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Hoàng Hải"
+               android:textColor="#fff"
+               android:textSize="15dp"
+                android:id="@+id/tvNameEventShowcase"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Hoàng Hải"
+               android:textColor="#fff"               />
+       </LinearLayout>
+
+   </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Love for Funkoi"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_marginLeft="@dimen/event_showcase_margin"
+        android:layout_marginRight="@dimen/event_showcase_margin"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff"
+
+        />
+</LinearLayout>

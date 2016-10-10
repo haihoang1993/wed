@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:contentInsetEnd="0dp"
+    android:contentInsetRight="0dp"
+    android:contentInsetStart="0dp"
+    app:contentInsetEnd="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetStart="0dp"
+    android:background="@color/colorActionBar"
+
+    android:theme="@style/CustomAppTheme">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_horizontal"
+        >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="7"
+            android:layout_margin="0dp"
+            android:id="@+id/layoutTitActionBar"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:layout_centerVertical="true"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:id="@+id/tvActionbar"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_icon_smail"
+                android:id="@+id/imgIconBar"
+                android:layout_toRightOf="@id/tvActionbar"
+                />
+        </RelativeLayout>
+      <FrameLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="3"
+          android:id="@+id/freButtonCreate"
+          android:visibility="visible"
+
+          >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnCreateAppBar"
+            android:visibility="gone"
+            android:text="Create"
+            android:textSize="13dp"
+            android:layout_margin="3dp"
+            android:background="@color/bg2"
+            />
+      </FrameLayout>
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>

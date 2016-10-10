@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- view background color -->a
+    <solid
+        android:color="#ffffff" >
+    </solid>
+
+    <!-- view border color and width -->
+
+<padding android:top="3dp"
+    android:bottom="3dp"
+    android:right="3dp"
+    android:left="3dp"
+    />
+    <!-- Here is the corner radius -->
+    <corners
+        android:radius="5dp"   >
+    </corners>
+
+</shape>

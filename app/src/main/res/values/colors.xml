@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1b4eb3</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMenu">#1f277d</color>
+    <color name="colorActionBar">#30cef9</color>
+    <color name="colorPrayButtonAccent">#8CC8E6</color>
+    <color name="colorPrayButtonPrimary">#D84D63</color>
+    <color name="white" >#fff</color>
+    <color name="yelow" >#ffd012</color>
+    <color name="bg2">#006caf</color>
+    <color name="ColorEvent">#2991d2</color>
+    <color name="BgShowdow">#4e4e4e</color>
+    <color name="black">#000</color>
+    </resources>

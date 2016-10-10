@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#026187"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:weightSum="2"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="0"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:id="@+id/timerText"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"                        android:textColor="#8ac7e6" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:text="Total Hours"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:src="@mipmap/ic_hour"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="8dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:weightSum="3"
+            android:layout_weight="1">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="0"
+                    android:textSize="30dp"
+
+                    android:id="@+id/currentDistance"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#8ac7e6" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Total Miles"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                />
+            />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView3"
+                    android:src="@mipmap/ic_mile"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="8dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_pray_start"
+            android:id="@+id/startPray"
+            android:layout_weight="4.7"
+            android:clickable="true"
+            android:enabled="true"
+            android:textColor="#166187"
+            android:textSize="16sp"
+            android:focusable="false"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="-6dp"
+            android:layout_marginRight="-6dp"
+            style="@style/PrayButton"
+            android:focusableInTouchMode="false"
+            android:onClick="onStartPrayClick" />
+
+        <Button
+            style="@style/StopPrayButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_pray_stop"
+            android:id="@+id/stopPray"
+            android:layout_weight="4.7"
+            android:clickable="true"
+            android:enabled="true"
+            android:textColor="#166187"
+            android:textSize="16sp"
+            android:focusable="false"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="-6dp"
+            android:layout_marginRight="-6dp"
+            android:focusableInTouchMode="false"
+            android:onClick="onStopPrayClick" />
+    </RelativeLayout>
+
+</LinearLayout>

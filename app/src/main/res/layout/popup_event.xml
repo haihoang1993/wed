@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  android:gravity="center"
+
+    android:weightSum="10">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical"
+       android:weightSum="10"
+       >
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="2"
+           >
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:weightSum="2"
+               android:orientation="vertical"
+               android:gravity="bottom"
+               >
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1"
+                   android:background="@color/ColorEvent"
+                   ></View>
+           </LinearLayout>
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@mipmap/ic_exit"
+               android:id="@+id/btnExitPopupEvent"
+               />
+       </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="vertical"
+            android:weightSum="4"
+            android:padding="3dp"
+
+
+            android:background="@color/ColorEvent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="0.7"
+                android:weightSum="10"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/bg2"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="Custom Pin 10 Peopole"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    ></View>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:text="3 Available"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="2.5"
+                    android:layout_height="wrap_content"
+                    android:text="click"
+                    android:id="@+id/btnClickOfPopupEvent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_button_form1"
+                    />
+            </LinearLayout>
+
+            <!-- item  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="0.7"
+                android:weightSum="10"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@color/bg2"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="Custom Pin 20 Peopole"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    ></View>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:text="0 Available"
+                    android:textSize="14dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="2.5"
+                    android:layout_height="wrap_content"
+                    android:text="buy"
+                    android:id="@+id/btnOpenShoPopupEvent1"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_button_form1"
+                    />
+            </LinearLayout>
+
+
+            <!-- item  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="0.7"
+                android:weightSum="10"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+
+                android:background="@color/bg2"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="Custom Pin 100 Peopole"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    ></View>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:text="0 Available"
+                    android:textSize="14dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="2.5"
+                    android:layout_height="wrap_content"
+                    android:text="buy"
+                    android:id="@+id/btnOpenShoPopupEvent2"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_button_form1"
+                    />
+            </LinearLayout>
+            <!--<end imtem-->
+
+            <!-- item  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="0.7"
+                android:weightSum="10"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:background="@color/bg2"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="Custom Pin 1000 Peopole"
+                    android:textSize="14dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    ></View>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:text="0 Available"
+                    android:textSize="14dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="2.5"
+                    android:layout_height="wrap_content"
+                    android:text="buy"
+                    android:id="@+id/btnOpenShoPopupEvent3"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_button_form1"
+                    />
+            </LinearLayout>
+            <!--<end imtem-->
+        </LinearLayout>
+
+
+   </LinearLayout>
+</LinearLayout>

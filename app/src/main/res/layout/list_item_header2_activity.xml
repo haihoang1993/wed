@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1175b3"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:weightSum="10">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:padding="3dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/lblListItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="4"
+            android:text="jjjjjjjjjjjjjj"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="2h"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:layout_weight="2"
+            android:layout_gravity="right"
+            android:weightSum="5"
+            android:textStyle="bold" >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:src="@mipmap/ic_goal"
+                android:scaleType="fitCenter"
+                android:layout_gravity="right"
+                android:id="@+id/imgImtemHeader2"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0.3m"
+                android:textColor="#fff"
+                android:gravity="left"
+                android:layout_weight="3"
+                android:textSize="15dp"
+                android:id="@+id/imgTitHeader2"
+                android:textStyle="bold" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="2h"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:layout_weight="2"
+            android:layout_gravity="right"
+            android:weightSum="5"
+            android:textStyle="bold" >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:src="@mipmap/ic_hour"
+                android:scaleType="fitCenter"
+                android:layout_gravity="right"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0.3m"
+                android:textColor="#fff"
+                android:gravity="left"
+                android:layout_weight="3"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="2h"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:weightSum="5"
+            android:textStyle="bold" >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:src="@mipmap/ic_mile"
+                android:scaleType="fitCenter"
+                android:layout_gravity="right"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0.3m"
+                android:textColor="#fff"
+                android:gravity="left"
+                android:layout_weight="3"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
